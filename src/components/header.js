@@ -3,7 +3,10 @@ import gsap from "gsap";
 import { Link } from "react-router-dom";
 const Header = () => {
   const [Isopen, SetIsOpen] = useState(false);
-  const handlenavbar = (val) => {};
+  const handlenavbar = (val) => {
+    console.log(val);
+    SetIsOpen(val);
+  };
 
   return (
     <aside className="fixed top-0 left-0 z-20 hidden h-full text-black transition duration-300 border-r border-black lg:block sm:hidden">
@@ -39,7 +42,7 @@ const Header = () => {
             </li>
             <li>
               <button
-                onclick={handlenavbar}
+                onClick={() => handlenavbar(!Isopen)}
                 href=""
                 className="inline-grid relative tracking-[-.43rem] items-center px-6 my-[1.30rem] text-sm font-semibold"
               >
@@ -48,7 +51,9 @@ const Header = () => {
                 </span>
                 <ul
                   id="Content"
-                  className="min-w-[10rem] max-w-md hidden absolute top-4 left-16 z-10 pt-0 pb-0"
+                  className={`min-w-[10rem] max-w-md  ${
+                    Isopen ? "block" : "hidden"
+                  } absolute top-4 left-16 z-10 pt-0 pb-0`}
                 >
                   <li className="pt-4 ml-4 bg-[#fff1da] border-t border-l border-r border-black">
                     <Link
