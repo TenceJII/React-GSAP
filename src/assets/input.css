@@ -1,0 +1,9 @@
+.text-stroke {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .clip-half-circle-left {
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+  }

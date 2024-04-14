@@ -4,7 +4,7 @@ import Layout from "../../components/layout";
 const Portofolio = () => {
   return (
     <Layout title="Potofolio">
-      <section></section>
+      <section className="flex items-center justify-center">halo</section>
     </Layout>
   );
 };
