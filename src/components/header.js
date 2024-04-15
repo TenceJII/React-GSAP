@@ -37,7 +37,7 @@ const Header = () => {
             isMenuOpen ? "flex-col" : "flex-row"
           } gap-x-5 lg:tracking-[9px] text-base font-bold font-serif`}
         >
-          <Link className="hover:underline underline-offset-2">CONTENT</Link>
+          <Link className="hover:underline underline-offset-2">HOME</Link>
           <Link className="hover:underline underline-offset-2">PROJECT</Link>
           <Link className="hover:underline underline-offset-2">SKILLS</Link>
           <Link className="hover:underline underline-offset-2">FOOTER</Link>

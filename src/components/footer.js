@@ -40,11 +40,11 @@ function Footer() {
           <div className="text-right">SPONSORS</div>
         </h1>
         <div className="flex text-xs gap-x-1">
-          <Link className="text-gray-400 hover:text-black">
+          <Link className="text-black hover:text-gray-400 ">
             <h1>JOIN</h1>
           </Link>
           <span>/</span>
-          <Link className="hover:text-gray-400">
+          <Link className="text-black hover:text-gray-400 ">
             <h1>ORDER</h1>
           </Link>
         </div>
