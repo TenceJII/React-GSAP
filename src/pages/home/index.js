@@ -210,7 +210,7 @@ const Home = () => {
                 Instagram or email below <br></br> when looking for a design /
                 front end
               </p>
-              <div className="relative flex items-center w-32 h-10 overflow-hidden duration-1000 gap-x-8 lg:w-52">
+              <div className="relative flex items-center w-32 h-10 overflow-hidden duration-1000 lg:gap-x-8 gap-x-4 lg:w-52">
                 <Link to="https://www.instagram.com/ninshu__/" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
