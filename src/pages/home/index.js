@@ -11,6 +11,8 @@ import bgwhite1 from "../../assets/image/bgwhite1.png";
 import img2 from "../../assets/image/image2.png";
 import img3 from "../../assets/image/image3.png";
 import img4 from "../../assets/image/image4.png";
+import img6 from "../../assets/image/image6.png";
+import img7 from "../../assets/image/image7.png";
 import ScrollTrigger from "gsap/ScrollTrigger"; // Import ScrollTrigger
 gsap.registerPlugin(ScrollTrigger); // Register ScrollTrigger plugin
 const Home = () => {
@@ -400,11 +402,7 @@ const Home = () => {
                     DESIGN UI/UX
                   </div>
                   <div className="lg:h-[7.05em] lg:w-[10.1em] w-[6.1em]  relative">
-                    <img
-                      className="rounded-full"
-                      src="https://basco1989.com/wp-content/themes/mytheme/assets/images/top/history/01.jpg"
-                      alt=""
-                    ></img>
+                    <img className="rounded-full" alt="" src={img7}></img>
                   </div>
                 </div>
                 <div className="w-full  h-[1px] bg-[#401D01]"></div>
