@@ -191,7 +191,7 @@ const Home = () => {
                 />
               </svg>
 
-              <h1 className="ml-3 font-serif text-lg ">MONALISA MORALES</h1>
+              <h1 className="ml-3 font-serif text-lg ">MANIK MAHENDRA</h1>
             </div>
           </div>
           <div className="grid-cols-12 gap-2 sm:grid ">
@@ -201,7 +201,7 @@ const Home = () => {
                   <span className="block overflow-hidden ">
                     PORTOFOLIO CONTENT
                   </span>
-                  <span className="block overflow-hidden">MORALLES</span>
+                  <span className="block overflow-hidden">MAHENDRA</span>
                 </p>
               </h3>
             </div>
